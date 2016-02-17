@@ -1,0 +1,1 @@
+lpstat -p | cut -d" " -f2 | xargs -I{} lpadmin -x {}
